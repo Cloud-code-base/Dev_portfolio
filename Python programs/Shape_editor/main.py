@@ -114,7 +114,6 @@ def startProgram():
             print("No Shapes stored")
         else:
             print("\n")
-
             viewOptions()
         
     else:
