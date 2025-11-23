@@ -1,7 +1,7 @@
 from Shape import Shape_, Cube, Sphere, Cylinder, Cone, newCube, newSphere, viewShapes, object_list
 import time
 
-
+appRunning = True
 
 def viewOptions():
     print("All shapes: ")
@@ -44,6 +44,9 @@ def viewOptions():
             if obj.name == inputArg:
 
                 object_list.remove(obj)
+        
+        print("Shape '" + obj.name + "' deleted")
+        print("\n")
 
         viewOptions()
 
@@ -107,6 +110,7 @@ def startProgram():
 
         if len(object_list) < 1:
 
+            print("\n")
             print("No Shapes stored")
         else:
             print("\n")
@@ -133,9 +137,9 @@ print("What would you like to do?")
 
 
 
+while appRunning:
 
-
-startProgram()
+    startProgram()
    
         
 
