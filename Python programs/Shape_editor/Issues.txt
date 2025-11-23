@@ -1,0 +1,21 @@
+
+
+** To Be Completed **
+
+Proper exception handling:
+
+    There is currently no exception handling in the program at any point.
+    This must be implemented at all input points including creation of shapes where numbers are used for dimensions
+
+
+Cone, Sphere and cyclinder creation functionality:
+
+    At present there is logic for creating a cube but not for the other shapes.
+    Exception handling must be considered here also
+
+
+Proper formatiing:
+
+    There are inconsistencies in the spacing between lines of code.
+    There may also be inconsistencies in the 'new line' implementations where used in the program
+

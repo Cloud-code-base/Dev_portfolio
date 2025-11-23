@@ -1,0 +1,4 @@
+# Ignore txt files
+
+test.txt
+.vscode/
