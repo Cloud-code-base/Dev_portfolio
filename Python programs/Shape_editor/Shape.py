@@ -28,25 +28,6 @@ class Cube(Shape_):
     def __init__(self, name, height = 200, width = 200, length = 200, colour = "grey"):
         super().__init__(name, height, width, length, colour)
 
-class Sphere(Shape_):
-    def __init__(self, name, radius, colour):
-        self.name = name
-        self.radius = radius
-        self.colour = colour
-
-    def displayShape(self):
-        print("Name: " + self.name)
-        print("Radius: " + str(self.radius))
-        print("Colour: " + str(self.colour))
-
-class Cone(Shape_):
-    def __init__(self, name, height = 200, width = 200, length = 200, colour = "grey"):
-        super().__init__(name, height, width, length, colour)
-
-class Cylinder(Shape_):
-    def __init__(self, name, height = 200, width = 200, length = 200, colour = "grey"):
-        super().__init__(name, height, width, length, colour)
-
 object_list = []
 
 def newCube(name, height, width, length, colour):
@@ -58,15 +39,6 @@ def newCube(name, height, width, length, colour):
     object_list.append(cube)
 
     cube.displayShape()
-
-
-def newSphere(name, radius, colour):
-
-    sphere = Sphere(name, radius, colour)
-
-    object_list.append(sphere)
-
-    sphere.displayShape()
 
 
 def viewShapes():
