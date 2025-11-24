@@ -70,6 +70,8 @@ def viewOptions():
         
                 print("Cube '" + obj.name + "' deleted")
                 print("\n")
+            
+            
 
         
 
